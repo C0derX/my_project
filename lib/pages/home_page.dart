@@ -7,13 +7,14 @@ class HomePage extends StatelessWidget {
     String name = "Flutter";
     return Scaffold(
       appBar: AppBar(
-        title: Text("App Bar"),
+        title: Text("Pratik"),
       ),
       body: Center(
         child: Container(
           child: Text("Welcome to $days days of $name"),
         ),
       ),
+      drawer: Drawer(),
     );
   }
 }
