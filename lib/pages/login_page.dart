@@ -65,7 +65,7 @@ class _LoginPageState extends State<LoginPage> {
                       },
                       validator: (value) {
                         if (value!.isEmpty) {
-                          return "Lauda Enter Ur Username";
+                          return "Please Enter Ur Username";
                         }
                         return null;
                       },
@@ -78,7 +78,7 @@ class _LoginPageState extends State<LoginPage> {
                       ),
                       validator: (value) {
                         if (value!.isEmpty) {
-                          return "Lauda Enter ur Password";
+                          return "Please Enter ur Password";
                         } else if (value.length < 6) {
                           return "Password Length Must Be Greater then 6";
                         }
