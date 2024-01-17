@@ -8,7 +8,10 @@ class HomePage extends StatelessWidget {
     String name = "Flutter";
     return Scaffold(
       appBar: AppBar(
-        title: Text("Pratik"),
+        title: Text(
+          "Pratik",
+          style: TextStyle(color: Colors.deepPurple),
+        ),
       ),
       body: Center(
         child: Container(
